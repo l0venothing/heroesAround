@@ -5,6 +5,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="<?php echo base_url('node_modules/bootstrap/dist/css/bootstrap.css') ?>">
+	<link rel="stylesheet" href="<?php echo base_url('node_modules/font-awesome/css/font-awesome.css') ?>">
+	<link rel="stylesheet" href="<?php echo base_url('application/assets/css/footer.css') ?>">
 	<title>Welcome to CodeIgniter</title>
 
 	<style type="text/css">
