@@ -1,17 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="">
-    <title>Heroes Around</title>
-    <link rel="stylesheet" href="http://heroesaround.dev/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://heroesaround.dev/assets/css/style-adv.css">
 
-</head>
-<body>
 <div class="container">
     <div class="row text-center">
         <div class="col-xs-12"><h3>Télécharge l'appli des héros ! </h3></div>
@@ -36,8 +25,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
     </div>
 </div>
 
- <script src="http://heroesaround.dev/node_modules/jquery/dist/jquery.min.js"></script>
-<script src="http://heroesaround.dev/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-</body>
-</html>
