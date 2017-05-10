@@ -1,3 +1,63 @@
+*{
+    margin: 10 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 p{
+
+    font-size: 30px;
     color: red;
+}
+
+h2{
+    
+}
+
+.row{
+    overflow: hidden;
+}
+.partieun{
+    margin-top: 50px;
+}
+
+.col-md-6{
+            display: inline-block;
+            float: left;
+            width: 50%;
+            text-align: center;
+}
+
+#imgaccueil{
+    width: 400px;
+    text-align: center;
+}
+
+/*body{
+    background: url('../../assets/img/') no-repeat;
+    background-size: cover;
+} */
+
+#logo{
+    width: 200px;
+}
+
+.nav.navbar-nav{
+    margin-top: 20px;
+    float: right;
+}
+
+li>a{
+    color: #39598e;
+}
+
+li>a:hover{
+    background-color: lightblue!important;
+    color: black;
+}
+li>a:focus{
+    background-color: lightblue!important;
+    color: black;
+}
+h2{
+    text-align: center;
 }
