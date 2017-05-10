@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+<<<<<<< HEAD
     <meta name="viewport" content="width=², initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
  
@@ -21,5 +22,13 @@
  <?= 
    $view_content 
  ?>
+
+    
+<?php 
+    $this->load->view('template/base/footer');
+
+?>
+
+
 </body>
 </html>
