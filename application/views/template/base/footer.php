@@ -1,27 +1,5 @@
 <style type="text/css">
-.fa {
-    color: white;
-    font-size: 50px;
-    margin: 10px;
-}
 
-.follow {
-    color: white;
-}
-
-.form-control {
-    float: left;
-    width: 250px;
-}
-
-.taille {
-    margin-top: 20px;
-}
-
-#around { /*id de l'image heroes aaround dans le footer*/
-    height: 200px;
-    weight: 120px;
-}
 </style>
 
 
