@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <link rel="stylesheet" href="<?= base_url('node_modules/bootstrap/dist/css/bootstrap.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/footer.css')?>">
     <title>Document</title>
@@ -12,7 +13,5 @@
     $this->load->view('template/base/footer');
 
 ?>
-
-
 </body>
 </html>
