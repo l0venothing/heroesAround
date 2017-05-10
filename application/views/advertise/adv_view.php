@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
     <div class="row">
         <div class="col-xs-4">
             <div id="img-sm">
-            <img id="sm" src="http://heroesaround.dev/assets/img/smartphone.png" alt="">
+            <img id="sm" src="<?= base_url('/assets/img/smartphone.png') ?>" alt="">
             </div>
         </div>
         <div class="col-xs-6 download-app-text">
@@ -20,8 +20,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
     </div>
     <div class="row">
        <div class="col-xs-12 text-center">
-       <a href="#" class="button"><img class="download-app" src="http://heroesaround.dev/assets/img/available-app-store.png" alt=""></a>
-       <a href="#" class="button"><img class="download-app" src="http://heroesaround.dev/assets/img/available-g-play.png" alt=""></a></div>
+       <a href="#" class="button"><img class="download-app" src="<?= base_url('/assets/img/available-app-store.png') ?>"></a>
+       <a href="#" class="button"><img class="download-app" src="<?= base_url('/assets/img/available-g-play.png') ?>"></a></div>
     </div>
 </div>
 
