@@ -18,7 +18,7 @@
 </head>
 <body>
     <?php 
-    // $this->load->view('template/base/nav');
+    $this->load->view('template/base/nav');
     ?>
  <?= 
    $view_content 
