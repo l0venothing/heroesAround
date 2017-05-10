@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<<<<<<< HEAD
+
     <meta name="viewport" content="width=², initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
  
