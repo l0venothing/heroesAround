@@ -38,7 +38,7 @@
     width: 200px;
 }
 
-.nav.navbar-nav{
+/*.nav.navbar-nav{
     margin-top: 20px;
     float: right;
 }
@@ -54,7 +54,7 @@ li>a:hover{
 li>a:focus{
     background-color: lightblue!important;
     color: black;
-}
+}*/
 h2{
     text-align: center;
 }
