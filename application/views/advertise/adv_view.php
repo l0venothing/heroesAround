@@ -1,9 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');?>
 
-<div class="container">
+<div class="container" id="appli">
     <div class="row text-center">
-        <div class="col-xs-12"><h3>Télécharge l'appli des héros ! </h3></div>
+        <div class="col-xs-12"><h2>Télécharge l'appli des héros ! </h2></div>
     </div>
     <div class="row">
         <div class="col-xs-4">
