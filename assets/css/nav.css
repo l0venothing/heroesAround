@@ -1,0 +1,41 @@
+.navi {
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-color: #001a2c;
+    width: 100%;
+    z-index: 1;
+}
+
+#logo {
+    width: 120px;
+}
+
+@font-face {
+font-family: 'code';
+src: url('../fonts/code/codebold.otf') format('truetype');
+
+}
+
+ul{
+    padding-top: 15px;
+}
+
+ ul li a.links {
+    padding: 10px 20px;
+    font-family: 'code';
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #506a98;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color:lightgrey;
+}
+
+ ul li a.links:hover {
+    color: #ba1540;
+    border: none;
+    border-top: 4px solid #ba1540;
+    transition: 0.7s;
+ }
