@@ -7,16 +7,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">HEROES AROUND</a>
         </div>
     
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="<?=base_url('');?>">Home</a></li>
-                <li><a href="<?=base_url('');?>">Why us?</a></li>
-                <li><a href="<?=base_url('');?>">Download</a></li>
-                <li><a href="<?=base_url('');?>">Contact</a></li>
-            </ul>
+        <div class="collapse navbar-collapse navbar-ex1-collapse navi">
+            <div class="container">
+                <div class="col-md-4">
+                    <img src="<?php echo base_url('assets/img/Untitled-2-02.png') ?>" id="logo">
+                </div>
+                <div class="col-md-5 col-md-offset-3">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="links" href="<?=base_url('#accueil');?>">Accueil</a></li>
+                        <li><a class="links" href="<?=base_url('#heroes');?>">Heroes Around</a></li>
+                        <li><a class="links" href="<?=base_url('#appli');?>">L'appli</a></li>
+                        <li><a class="links" href="<?=base_url('#contact');?>">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
