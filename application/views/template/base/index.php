@@ -24,7 +24,7 @@
 </head>
 <body>
     <?php 
-    $this->load->view('template/base/nav');
+    $this->load->view('template/base/nav'); ?>
 
     <title>Heroes Around</title>
 </head>
@@ -38,6 +38,7 @@
     ?>
 </div>
     <?php
+        $this->load->view('advertise/adv_view');
         $this->load->view('template/base/contact');
 
     ?>
