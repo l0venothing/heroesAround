@@ -16,6 +16,16 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/contact-css.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/footer.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url("assets/css/style.css");?>">
+
+    <link rel="stylesheet" type="text/css" href="<?= base_url("assets/css/accueil.css");?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url("assets/css/nav.css");?>">
+
+    <title>Document</title>
+</head>
+<body>
+    <?php 
+    $this->load->view('template/base/nav');
+
     <title>Heroes Around</title>
 </head>
 <body>
@@ -29,6 +39,7 @@
 </div>
     <?php
         $this->load->view('template/base/contact');
+
     ?>
     
 <?php 

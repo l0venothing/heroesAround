@@ -1,10 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');?>
 
+
 <div class="bg-ddl">
     <div class="container">
         <div class="row text-center">
-            <div class="col-xs-12"></div>
+          <div class="col-xs-12"></div>
         </div>
         <div class="row texte-ddl">
             <div class="col-md-8 download-app-text">
