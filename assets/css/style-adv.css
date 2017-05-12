@@ -7,7 +7,31 @@ width:50%;
     margin-top: 25px;
 }
 
-.download-app {height: 20%;
-width:20%;
+.download-app-text h3{
+    color: #264573;
+    font-size: 3em;
 }
 
+.download-app-text p{
+    margin-top: 30px;
+}
+
+.download-app {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.bg-ddl{
+    background-image: url('../img/bg-ddl-2.jpg');
+    background-size: cover;
+    height: 700px;
+}
+
+#img-ddl{
+    padding-top: 50px;
+}
+
+.texte-ddl{
+    margin-top: 180px;
+}

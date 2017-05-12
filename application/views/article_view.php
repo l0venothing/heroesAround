@@ -50,6 +50,9 @@
     </div>
 
 
+<div class="col-md-6"> <img id="imgaccueil" src="<?= base_url('assets/img/info.jpg'); ?>" alt="heroes info"></div>
+
+
 
     <div class="row partieun">
         <div class="col-md-5">
