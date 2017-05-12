@@ -30,6 +30,8 @@
 </head>
 <body>
 <?php 
+
+$this->load->view('accueil/accueil');
     // $this->load->view('template/base/nav');
 ?>
 <div class="container">
