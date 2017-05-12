@@ -21,7 +21,7 @@ ul{
 }
 
  ul li a.links {
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-family: 'code';
 }
 
@@ -36,6 +36,30 @@ ul{
  ul li a.links:hover {
     color: #ba1540;
     border: none;
-    border-top: 4px solid #ba1540;
-    transition: 0.7s;
+    border-top: 3px solid #ba1540;
+    transition: 0.4s;
+ }
+
+  ul li a.langues {
+    padding: 10px 4px;
+    font-family: 'code';
+    
+}
+
+.navbar-default .navbar-nav>li>a.langues {
+    color: #c51c4d;
+}
+
+ ul li a.langues:hover {
+    color: white;
+    transition: 0.4s;
+ }
+
+ .navbar-default{
+     margin-bottom: 0px;
+ }
+
+ .navbar {
+     border: none;
+
  }
