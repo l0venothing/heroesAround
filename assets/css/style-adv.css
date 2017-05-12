@@ -1,0 +1,37 @@
+#sm {
+height: 50%;
+width:50%;
+}
+
+.download-app-text{
+    margin-top: 25px;
+}
+
+.download-app-text h3{
+    color: #264573;
+    font-size: 3em;
+}
+
+.download-app-text p{
+    margin-top: 30px;
+}
+
+.download-app {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.bg-ddl{
+    background-image: url('../img/bg-ddl-2.jpg');
+    background-size: cover;
+    height: 700px;
+}
+
+#img-ddl{
+    padding-top: 50px;
+}
+
+.texte-ddl{
+    margin-top: 180px;
+}

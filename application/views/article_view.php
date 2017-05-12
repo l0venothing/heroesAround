@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url("../../assets/css/style.css")?>">
-    
-    <!-- Latest compiled and minified CSS & JS -->
-    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <script src="//code.jquery.com/jquery.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    
-    <title>Heroes Around</title>
-</head>
-<body>
+
 
 <!-- <div class="container">
     <header class="header">
@@ -46,28 +31,91 @@
 
     </header> -->
 
-<div class="row whyus">
-<h2> Why Us? </h2>
+<div class="row whyus" id="heroes">
+    <h2>Notre technologie</h2>
 </div>
 
+<!--<div class="container">
     <div class="row partieun">
+        <div class="col-md-7">
+            <p class="para">Notre équipe travaille sans cesse sur le développement du système de géolocalisation
+            et de GPS pour accélérer le temps de localisation de votre téléphone et également simplifier
+            les manipulations d'appels d'urgence dans un temps record.
+            </p>
+        
+        </div>
+        <div class="col-md-5">
+            <img class="img-responsive" id="imgaccueil" src="assets/img/info.jpg" alt="heroes info">
+        </div>
+    </div>
 
-<div class="col-md-6"> <img class="img-responsive" src="assets/img/info.jpg" alt="heroes info"></div>
+
+<div class="col-md-6"> <img class="img-responsive" src="<?= base_url('assets/img/info.jpg'); ?>" alt="heroes info"></div>
 
 <div class="col-md-6"><p>Notre équipe travaille sans cesse sur le développement du système de géolocalisation
 et de GPS pour accélérer le temps de localisation de votre téléphone.</p></div>
 
-</div>
 
-<div class="row partieun">
 
-    <div class="col-md-6"><p>Nous travaillons d'autre part, en partenariat avec les services de secours, sur le temps d'arrivée des services de secours qui est estimé pour le moment à 9 minutes et quelques secondes. De plus, il y a un nombre important de médecins et pompiers s'élevant jusqu'à 80.000 professionnels.</p></div>
 
+    <div class="row partieun">
+        <div class="col-md-5">
+            <img class="img-responsive" id="imgaccueil" src="assets/img/brussels-victim.jpg" alt="heroes">
+        </div>
+
+        <div class="col-md-7">
+            <p class="para">Nous travaillons d'autre part, en partenariat avec les services de secours, sur le temps d'arrivée des services de secours qui est estimé pour le moment à 9 minutes et quelques secondes. De plus, il y a un nombre important de médecins et pompiers s'élevant jusqu'à 80.000 professionnels.
+            </p>
+        </div>
+
+
+    </div>
+    
+</div>-->
 
     <div class="col-md-6">
         <img class="img-responsive" src="assets/img/brussels-victim.jpg" alt="heroes"></div>
 
+
+
+
+<!--<ul class="list-img">
+    <li><img class="img-responsive" id="imgaccueil" src="assets/img/info.jpg" alt="heroes info"></li>
+    <li><img class="img-responsive" id="imgaccueil" src="assets/img/brussels-victim.jpg" alt="heroes"></li>
+    <li><img class="img-responsive" id="imgaccueil" src="assets/img/info.jpg" alt="heroes info"></li>
+</ul>-->
+
+<div class="container">
+    <div class="col-md-4">
+        <div class="col-md-12">
+            <div class="images">
+                <img class="img-responsive" src="assets/img/info.jpg" alt="heroes info">
+            </div>
+            <div class="list-content">
+                <p class="texte">Notre équipe travaille sans cesse sur le développement du système de géolocalisation
+                et de GPS pour accélérer le temps de localisation de votre téléphone et également simplifier
+                les manipulations d'appels d'urgence dans un temps record.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+            <div class="col-md-12">
+                <div class="images">
+                    <img class="img-responsive" src="assets/img/brussels-victim.jpg" alt="heroes">
+                </div>
+                <div class="list-content">
+                    <p class="texte">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat iure pariatur, culpa sunt adipisci voluptas ipsum perspiciatis, aspernatur expedita reprehenderit quos debitis natus accusamus quia voluptatem quas sed eos! Autem!</p>
+                </div>
+            </div>
+        </div>
+    <div class="col-md-4">
+        <div class="col-md-12">
+            <div class="images">
+                <img class="img-responsive" src="assets/img/info.jpg" alt="heroes info">
+            </div>
+            <div class="list-content">
+                <p class="texte">Nous travaillons d'autre part, en partenariat avec les services de secours, sur le temps d'arrivée des services de secours qui est estimé pour le moment à 9 minutes et quelques secondes. De plus, il y a un nombre important de médecins et pompiers s'élevant jusqu'à 80.000 professionnels.</p>
+            </div>
+        </div>
+    </div>
 </div>
-</div>
-</body>
-</html>

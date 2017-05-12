@@ -1,0 +1,47 @@
+.bg-img{
+    background-image: url(../img/couleurs.png);
+    height: 950px; 
+    background-position-y: center;
+    background-size: cover;
+}
+@font-face {
+font-family: 'code';
+src: url('../fonts/code/codebold.otf') format('truetype');
+}
+@font-face {
+font-family: 'codelight';
+src: url('../fonts/code/codelight.otf') format('truetype');
+}
+
+.title{
+    font-family: 'codelight';
+    font-size: 50px;
+    color: white;
+}
+
+.text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.landing{
+    margin-top: 100px;
+}
+
+.telecharger {
+    padding: 7px 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+a.telecharger {
+    text-decoration: none;
+    color: white;
+}
+
+a.telecharger:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}

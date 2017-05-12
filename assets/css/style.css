@@ -1,16 +1,16 @@
 *{
     margin: 10 auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: dimgrey;
 }
 
-p{
-
+/*p{
     font-size: 30px;
     color: red;
-}
+}*/
 
-h2{
-    
+.white{
+    color: white;
 }
 
 .row{
@@ -27,10 +27,6 @@ h2{
             text-align: center;
 }
 
-#imgaccueil{
-    width: 400px;
-    text-align: center;
-}
 
 /*body{
     background: url('../../assets/img/') no-repeat;
@@ -41,7 +37,7 @@ h2{
     width: 200px;
 }
 
-.nav.navbar-nav{
+/*.nav.navbar-nav{
     margin-top: 20px;
     float: right;
 }
@@ -57,7 +53,73 @@ li>a:hover{
 li>a:focus{
     background-color: lightblue!important;
     color: black;
-}
+}*/
 h2{
     text-align: center;
+    font-family: 'code';
+    color: #506a98;
+}
+.fa {
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.follow {
+    color: white;
+}
+
+.form-control {
+    float: left;
+    width: 250px;
+}
+
+.taille {
+    margin-top: 20px;
+}
+
+#around { /*id de l'image heroes aaround dans le footer*/
+    height: 200px;
+    weight: 120px;
+}
+
+/* css modifié partie taufiq */
+
+.para{
+    margin: 60px 0px;
+}
+
+ul.list-img{
+    text-decoration: none;
+}
+
+.list-content{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /*width: 100%;*/
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    opacity: 0;
+    padding-top: 30px;
+    transition-property: all;
+    transition-duration: 1s;
+    margin-top:0px;
+    margin-left:15px;
+    margin-right: 15px;
+    padding: 10px;
+
+}
+
+.list-content:hover {
+    opacity: 1;
+}
+
+
+.texte{
+    padding: 20px;
+    color: white;
 }
