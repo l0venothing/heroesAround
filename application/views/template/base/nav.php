@@ -15,12 +15,15 @@
                 <div class="col-md-4">
                     <img src="<?php echo base_url('assets/img/Untitled-2-02.png') ?>" id="logo">
                 </div>
-                <div class="col-md-5 col-md-offset-3">
+                <div class="col-md-7 col-md-offset-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="links" href="<?=base_url('#accueil');?>">Accueil</a></li>
-                        <li><a class="links" href="<?=base_url('#heroes');?>">Heroes Around</a></li>
-                        <li><a class="links" href="<?=base_url('#appli');?>">L'appli</a></li>
+                        <li><a class="links" href="<?=base_url('#heroes');?>">Notre technologie</a></li>
+                        <li><a class="links" href="<?=base_url('#appli');?>">Télécharger</a></li>
                         <li><a class="links" href="<?=base_url('#contact');?>">Contact</a></li>
+                        <li><a class="langues" href="<?=base_url('#contact');?>">FR</a></li>
+                        <li><a class="langues" href="<?=base_url('#contact');?>">NL</a></li>
+                        <li><a class="langues" href="<?=base_url('#contact');?>">EN</a></li>
                     </ul>
                 </div>
             </div>
