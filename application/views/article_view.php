@@ -52,11 +52,10 @@
 
     <div class="row partieun">
 
-<div class="col-md-6"> <img id="imgaccueil" src="assets/img/info.jpg" alt="heroes info"></div>
+<div class="col-md-6"> <img class="img-responsive" src="assets/img/info.jpg" alt="heroes info"></div>
 
 <div class="col-md-6"><p>Notre équipe travaille sans cesse sur le développement du système de géolocalisation
-et de GPS pour accélérer le temps de localisation de votre téléphone et également simplifier
-les manipulations d'appels d'urgence dans un temps record.</p></div>
+et de GPS pour accélérer le temps de localisation de votre téléphone.</p></div>
 
 </div>
 
@@ -66,7 +65,7 @@ les manipulations d'appels d'urgence dans un temps record.</p></div>
 
 
     <div class="col-md-6">
-        <img id="imgaccueil" src="assets/img/brussels-victim.jpg" alt="heroes"></div>
+        <img class="img-responsive" src="assets/img/brussels-victim.jpg" alt="heroes"></div>
 
 </div>
 </div>
