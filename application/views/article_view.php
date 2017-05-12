@@ -37,7 +37,7 @@
 
     <div class="row partieun">
 
-<div class="col-md-6"> <img id="imgaccueil" src="assets/img/info.jpg" alt="heroes info"></div>
+<div class="col-md-6"> <img id="imgaccueil" src="<?= base_url('assets/img/info.jpg'); ?>" alt="heroes info"></div>
 
 <div class="col-md-6"><p>Notre équipe travaille sans cesse sur le développement du système de géolocalisation
 et de GPS pour accélérer le temps de localisation de votre téléphone et également simplifier

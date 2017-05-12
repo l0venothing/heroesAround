@@ -13,25 +13,26 @@
     <link rel="stylesheet" href="<?= base_url('node_modules/bootstrap/dist/css/bootstrap.min.css');?>">
     <link rel="stylesheet" href="<?= base_url('node_modules/font-awesome/css/font-awesome.min.css');?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/style-adv.css');?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/contact-css.css');?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/footer.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url("assets/css/style.css");?>">
-    <title>Document</title>
+    <title>Heroes Around</title>
 </head>
 <body>
 <?php 
     // $this->load->view('template/base/nav');
 ?>
 <div class="container">
-<?= 
-   $view_content 
-?>
+    <?= 
+    $view_content 
+    ?>
 </div>
-<?php
-    $this->load->view('template/base/contact');
-?>
+    <?php
+        $this->load->view('template/base/contact');
+    ?>
     
 <?php 
     $this->load->view('template/base/footer');
-
 ?>
 </body>
 </html>

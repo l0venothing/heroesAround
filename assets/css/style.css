@@ -1,6 +1,6 @@
 *{
     margin: 10 auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*p{
@@ -8,7 +8,9 @@
     color: red;
 }*/
 
-
+.white{
+    color: white;
+}
 
 .row{
     overflow: hidden;
@@ -75,9 +77,4 @@ h2{
 
 .taille {
     margin-top: 20px;
-}
-
-#around { /*id de l'image heroes aaround dans le footer*/
-    height: 200px;
-    weight: 120px;
 }
