@@ -1,11 +1,17 @@
+
+footer{
+    padding: 0px 0px 20px;
+    background-color: #001a2c;
+}
 .fa {
     color: white;
-    font-size: 50px;
+    font-size: 1em;
     margin: 10px;
 }
 
 .follow {
     color: white;
+    margin-bottom: 30px;
 }
 
 .form-control {
@@ -17,7 +23,32 @@
     margin-top: 20px;
 }
 
-#around { /*id de l'image heroes aaround dans le footer*/
-    height: 200px;
-    weight: 120px;
+.bg-rs{
+    background-color: #001932;
+    padding: 60px 0px;
+}
+
+#copyright{
+    padding-top: 10px;
+    font-size: 0.8em;
+    text-align: left;
+    color: white;
+}
+
+#input-newsletter{
+    width: 80%;
+}
+
+#btn-newsletter{
+    width: 20%;
+}
+
+#newsletter{
+    padding: 150px 0px 250px;
+}
+
+#bg-newsletter{
+    background-image: url('../img/bg-newsletter.png');
+    padding-top: 40px;
+    margin-bottom: 20px;
 }
