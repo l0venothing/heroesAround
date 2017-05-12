@@ -10,7 +10,6 @@
                 <br/>
                 <p><a class="telecharger" href="<?=base_url('#appli');?>">Téléchargez l'App</a></p>
                 
-                
             </div>
         </div>
     </div>

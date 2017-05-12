@@ -25,10 +25,6 @@
             text-align: center;
 }
 
-#imgaccueil{
-    width: 400px;
-    text-align: center;
-}
 
 /*body{
     background: url('../../assets/img/') no-repeat;
@@ -89,4 +85,43 @@ h2{
 
 .para{
     margin: 60px 0px;
+}
+
+ul.list-img{
+    text-decoration: none;
+}
+
+.list-content{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /*width: 100%;*/
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    opacity: 0;
+    padding-top: 30px;
+    transition-property: all;
+    transition-duration: 1s;
+    margin-top:0px;
+    margin-left:15px;
+    margin-right: 15px;
+    padding: 10px;
+
+}
+
+.list-content:hover {
+    opacity: 1;
+}
+
+
+.texte{
+    padding: 20px;
+    color: white;
+}
+
+.technologies{
+    margin: 60px 0px
 }
