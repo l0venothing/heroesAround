@@ -1,0 +1,26 @@
+#message-contact{
+    width: 100%;
+}
+
+.input-contact{
+    margin-bottom: 5px;
+}
+
+#btnContact{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bg-contact{
+    background-color: #f5f5f5;
+    padding: 70px 0px 100px;
+}
+
+.bg-contact h1{
+    color: #264573;
+    font-size: 3em;
+}
+
+.titre-contact{
+    margin-bottom: 40px;
+}
