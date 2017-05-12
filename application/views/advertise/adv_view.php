@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
         </div>
         <div class="row texte-ddl">
             <div class="col-md-8 download-app-text">
-                <h3>Télécharge l'appli des héros ! </h3>
+                <h3 id="appli">Télécharge l'appli des héros ! </h3>
                 <p>Un héros porte toujours Heroes Around avec lui !<br />Rendez-vous sur App Store ou Google Play et télécharge vite Heroes Around !</p>
             </div>
         </div>

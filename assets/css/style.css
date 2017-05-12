@@ -1,9 +1,7 @@
 *{
     margin: 10 auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
     color: dimgrey;
-
 }
 
 /*p{
@@ -80,7 +78,6 @@ h2{
     margin-top: 20px;
 }
 
-
 #around { /*id de l'image heroes aaround dans le footer*/
     height: 200px;
     weight: 120px;
@@ -126,8 +123,3 @@ ul.list-img{
     padding: 20px;
     color: white;
 }
-
-.technologies{
-    margin: 60px 0px
-}
-
